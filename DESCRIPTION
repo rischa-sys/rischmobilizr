@@ -1,0 +1,48 @@
+Package: mobilizr
+Type: Package
+Title: Functions for the Mobilize Introduction to Data Science course.
+Description: This package is intended to simplify the code writing process for
+    Introduction to Data Science, a Mobilize grant high school course. This is
+    accomplished by creating wrappers and helper functions so students can work
+    with a single, concise syntax in the RStudio server GUI.
+Version: 0.3.12
+Date: 2017-08-03
+Authors@R: as.person(c(
+    "James Molyneux <jmolyneux@ucla.edu> [aut, cre]",
+    "Amelia McNamara <amelia.mcnamara@stat.ucla.edu> [aut]",
+    "Terri Johnson <terri.johnson@stat.ucla.edu> [aut]",
+    "Steve Nolen <technolengy@gmail.com> [aut]"
+  ))
+Encoding: UTF-8
+Depends:
+    R (>= 3.0.2),
+    utils,
+    stats,
+    dplyr,
+    leaflet,
+    mosaic,
+    readr,
+    XML,
+	rvest,
+	xml2
+Imports:
+    curl,
+    grid,
+    rstudioapi,
+    latticeExtra,
+    log4r,
+    RColorBrewer,
+    stringr,
+    plyr,
+    rpart,
+    rpart.plot,
+    roxygen2,
+    testthat,
+    wordcloud
+Suggests:
+    visualTest
+License: GPL (>= 2)
+LazyData: TRUE
+URL: https://www.mobilizingcs.org
+Maintainer: IDSUCLA <admin@idsucla.org>
+RoxygenNote: 7.3.1
